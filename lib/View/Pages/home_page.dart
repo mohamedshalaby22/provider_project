@@ -22,6 +22,9 @@ class _HomePageState extends State<HomePage> {
 
   @override
   Widget build(BuildContext context) {
+    // Provider.of<ProductsController>(
+    //   context,
+    // );
     return Scaffold(
       body: SingleChildScrollView(
         child: Padding(
